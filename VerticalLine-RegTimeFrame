@@ -1,0 +1,3 @@
+#Attr. Mobius. Adds Vertical Line every hour.
+
+AddVerticalLine(getTime() % AggregationPeriod.HOUR == 0);
